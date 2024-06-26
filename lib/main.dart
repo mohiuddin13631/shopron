@@ -1,17 +1,17 @@
 import 'dart:io';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_prime/core/utils/theme_data.dart';
+import 'package:shopron/config/helper/shared_preference_helper.dart';
+import 'package:shopron/config/route/route.dart';
+import 'package:shopron/config/utils/messages.dart';
+import 'package:shopron/config/utils/my_strings.dart';
+import 'package:shopron/config/utils/theme_data.dart';
+import 'package:shopron/domain/controller/localization/localization_controller.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:flutter_prime/core/helper/shared_preference_helper.dart';
-import 'package:flutter_prime/core/route/route.dart';
-import 'package:flutter_prime/core/utils/messages.dart';
-import 'package:flutter_prime/core/utils/my_strings.dart';
-import 'package:flutter_prime/data/controller/localization/localization_controller.dart';
-import 'package:flutter_prime/push_notification_service.dart';
-import 'core/di_service/di_services.dart' as di_service;
+
+import 'config/di_service/di_services.dart' as di_service;
 
 Future<void> _messageHandler(RemoteMessage message) async {
   // await Firebase.initializeApp();
@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.noTransition,
         transitionDuration: const Duration(milliseconds: 200),
-        initialRoute: RouteHelper.loginScreen,
+        initialRoute: RouteHelper.splashScreen,
         theme: AppTheme.lightThemeData,
         // initialRoute: RouteHelper.loginScreen,
         navigatorKey: Get.key,

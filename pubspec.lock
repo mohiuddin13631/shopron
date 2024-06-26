@@ -65,14 +65,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
-  awesome_dialog:
+  badges:
     dependency: "direct main"
     description:
-      name: awesome_dialog
-      sha256: "41c41ae4b30b5c7f26bb3d9f9c87010ed1cab0bb4d4ac0cc513e5799c37e9d82"
+      name: badges
+      sha256: a7b6bbd60dce418df0db3058b53f9d083c22cdb5132a052145dc267494df0b84
       url: "https://pub.dev"
     source: hosted
-    version: "3.2.1"
+    version: "3.1.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -93,26 +93,26 @@ packages:
     dependency: "direct main"
     description:
       name: cached_network_image
-      sha256: fd3d0dc1d451f9a252b32d95d3f0c3c487bc41a75eba2e6097cb0b9c71491b15
+      sha256: "28ea9690a8207179c319965c13cd8df184d5ee721ae2ce60f398ced1219cea1f"
       url: "https://pub.dev"
     source: hosted
-    version: "3.2.3"
+    version: "3.3.1"
   cached_network_image_platform_interface:
     dependency: transitive
     description:
       name: cached_network_image_platform_interface
-      sha256: bb2b8403b4ccdc60ef5f25c70dead1f3d32d24b9d6117cfc087f496b178594a7
+      sha256: "9e90e78ae72caa874a323d78fa6301b3fb8fa7ea76a8f96dc5b5bf79f283bf2f"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "4.0.0"
   cached_network_image_web:
     dependency: transitive
     description:
       name: cached_network_image_web
-      sha256: b8eb814ebfcb4dea049680f8c1ffb2df399e4d03bf7a352c775e26fa06e02fa0
+      sha256: "205d6a9f1862de34b93184f22b9d2d94586b2f05c581d546695e3d8f6a805cd7"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.2.0"
   carousel_slider:
     dependency: "direct main"
     description:
@@ -446,14 +446,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_blurhash:
-    dependency: transitive
-    description:
-      name: flutter_blurhash
-      sha256: "05001537bd3fac7644fa6558b09ec8c0a3f2eba78c0765f88912882b1331a5c6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.7.0"
   flutter_cache_manager:
     dependency: transitive
     description:
@@ -857,13 +849,13 @@ packages:
     source: hosted
     version: "0.5.0"
   octo_image:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: octo_image
-      sha256: "107f3ed1330006a3bea63615e81cf637433f5135a52466c7caa0e7152bca9143"
+      sha256: "45b40f99622f11901238e18d48f5f12ea36426d8eced9f4cbf58479c7aa2430d"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "2.0.0"
   package_info_plus:
     dependency: transitive
     description:
@@ -1065,21 +1057,13 @@ packages:
     source: hosted
     version: "4.1.0"
   rive:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: rive
-      sha256: "0342c9cd3c83ceeee4ad9246b98d628a2e9abd9d615acf69fa81fbbcf84a36ae"
+      sha256: "22e3755b75f4ea4492d2fecf4fc2acf1c8d0073df39781d290a20cbfe74c3760"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.8"
-  rive_common:
-    dependency: transitive
-    description:
-      name: rive_common
-      sha256: "3fe76ba4680787741688ee393e47b63417e8643816795e4eac01021683af1d84"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.9"
+    version: "0.9.1"
   rxdart:
     dependency: transitive
     description:
