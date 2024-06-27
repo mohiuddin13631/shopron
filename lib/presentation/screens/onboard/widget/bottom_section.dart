@@ -35,7 +35,7 @@ class BottomSection extends StatelessWidget {
                 ))
             ),
 
-            SizedBox(height: context.height * .06,),
+            SizedBox(height: context.height * .04,),
 
             controller.onboardImageList.length -1 == index ? GestureDetector(
               onTap: () {

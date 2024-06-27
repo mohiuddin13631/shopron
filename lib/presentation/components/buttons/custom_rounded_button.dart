@@ -31,7 +31,7 @@ class CustomRoundedButton extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: isHorizontalPadding? Dimensions.space16 : 0),
       color: MyColor.colorWhite,
       width: double.infinity,
-      height: size.height * .075,
+      height: size.height * .09,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

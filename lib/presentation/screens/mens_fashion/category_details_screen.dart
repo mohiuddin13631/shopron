@@ -80,7 +80,7 @@ class _CategoryDetailsScreenState extends State<CategoryDetailsScreen> {
                     scrollDirection: Axis.vertical,
                       itemCount: controller.categoryList.length,
                       shrinkWrap: true,
-                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,crossAxisSpacing: Dimensions.space16,mainAxisSpacing: Dimensions.space10),
+                      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,crossAxisSpacing: Dimensions.space16,mainAxisSpacing: Dimensions.space10,childAspectRatio: .75),
                       itemBuilder: (context, index) => GestureDetector(
                         onTap: () {
                           Get.toNamed(RouteHelper.productDetailsScreen);

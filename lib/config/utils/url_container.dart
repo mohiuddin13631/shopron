@@ -52,6 +52,4 @@ class UrlContainer{
 
   static const String deviceTokenEndPoint          = 'get/device/token';
   static const String languageUrl                  = 'language/';
-
-
 }

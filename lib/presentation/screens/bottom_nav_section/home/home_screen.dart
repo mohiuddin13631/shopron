@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 CustomRowHeader(title: MyStrings.trendingProduct.tr,viewAllPress: () {}),
                 GridView.builder(
                   padding: const EdgeInsets.symmetric(horizontal: Dimensions.space8),
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,mainAxisSpacing: 10),
+                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,mainAxisSpacing: 10,childAspectRatio: .9),
                     itemCount: MyProduct.mensFashionList.length,
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),

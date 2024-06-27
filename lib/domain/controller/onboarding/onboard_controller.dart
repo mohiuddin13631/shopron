@@ -36,7 +36,7 @@ class OnboardController extends GetxController{
 
   List<String> onboardTitleList = [
     "Welcome to Shopron",
-    "Discover Amazing Deals",
+    "Discover Deals",
     "Shop Smart, Shop Easy",
   ];
 }

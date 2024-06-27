@@ -280,7 +280,7 @@ class MyStrings{
   static const String selectColor             = "Select Color";
   static const String close                   = "Close";
   static const String apply                   = "Apply";
-  static const String cartHeaderText          = "Gray Nicolls Rubber Shoes";
+  static const String cartHeaderText          = "Gray Nicolls";
   static const String myCart                  = "My Cart";
   static const String order                   = "Order";
   static const String cart                    = "Cart";

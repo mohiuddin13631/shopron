@@ -255,7 +255,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                       GestureDetector(
                         onTap: (){},
                         child: Text(
-                          "${MyStrings.privacyPolicy.tr} , ${MyStrings.termsOfServices}",
+                          MyStrings.privacyPolicy.tr,
                           style: regularDefaultInter.copyWith(
                           color: MyColor.getPrimaryColor(),
                           // decoration: TextDecoration.underline,
